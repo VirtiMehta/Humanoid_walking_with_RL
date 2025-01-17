@@ -6,7 +6,11 @@ The project aims to create a reinforcement learning agent that can control a hum
 
 **Key Features:**
 **Custom Humanoid Environment:** A humanoid robot with various state parameters (e.g., forward velocity, torso height, joint torques) that affect its ability to walk.
+
 **PPO-based RL:** Training the humanoid agent using Proximal Policy Optimization (PPO), a powerful reinforcement learning algorithm.
+
 **Natural Walking Incentive:** The reward function is designed to encourage forward movement while maintaining stability, penalizing backward motion and falls.
+
 **Real-time Rendering:** The environment supports real-time visualization of the humanoid’s actions as it learns to walk.
+
 **TensorBoard Logging:** Training statistics are logged to TensorBoard for monitoring progress
